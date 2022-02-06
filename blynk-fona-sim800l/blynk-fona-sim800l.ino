@@ -25,6 +25,8 @@
 
 #include "Adafruit_FONA.h"
 #include <SoftwareSerial.h>
+//GPS Module RX pin to NodeMCU D3
+//GPS Module TX pin to NodeMCU D4
 #define rxPin D4
 #define txPin D3
 #define FONA_RST 13
