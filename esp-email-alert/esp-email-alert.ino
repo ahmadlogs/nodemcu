@@ -3,6 +3,7 @@
  * Created by: Tauseef Ahmad
  * Created on: 27 January 2022
  *  
+ * Tutorial: https://youtu.be/gG-Y9X6kM6w
  * ------------------------------------------------------------------------
  * Download Resources
  * ------------------------------------------------------------------------
@@ -50,11 +51,13 @@ TinyGPSPlus gps;
 //******************************************
 //-------------------------------------------------
 //The Login Credentials for your SMTP Server
-#define AUTHOR_EMAIL "samsing@gmail.com"
-#define AUTHOR_PASSWORD "somloe56u3@3"
+//Enter the email address and password
+//not enter your personal email here
+#define AUTHOR_EMAIL "ENTER_EMAIL_FOR_SMTP_SERVER"
+#define AUTHOR_PASSWORD "ENTER_PASSWORD_FOR_SMTP_SERVER"
 //-------------------------------------------------
 //Recipient's Email - Receiver's Email
-#define RECIPIENT_EMAIL "ahmadlogs2021@gmail.com"
+#define RECIPIENT_EMAIL "ENTER_RECEIVER_EMAIL"
 //-------------------------------------------------
 //Gmail SMTP Server Settings
 #define SMTP_HOST "smtp.gmail.com"
@@ -69,8 +72,8 @@ TinyGPSPlus gps;
 //#define SMTP_HOST "smtp.live.com"
 //#define SMTP_PORT 587
 //-------------------------------------------------
-#define WIFI_SSID "smarthome"
-#define WIFI_PASSWORD "happynewyear"
+#define WIFI_SSID "ENTER_WIFI_SSID"
+#define WIFI_PASSWORD "ENTER_WIFI_PASSWORD"
 //-------------------------------------------------
 /* The SMTP Session object used for Email sending */
 SMTPSession smtp;
