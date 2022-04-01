@@ -1,3 +1,17 @@
+/* ------------------------------------------------------------------------
+ * Created by: Tauseef Ahmad
+ * Created on: 4 April, 2022
+ *  
+ * Tutorial: https://youtu.be/M9Sci4nsTEk
+ * ------------------------------------------------------------------------
+ * Download Resources
+ * ------------------------------------------------------------------------
+ * Preferences--> Aditional boards Manager URLs : 
+ * For ESP8266 and NodeMCU - Version 3.0.2
+ * http://arduino.esp8266.com/stable/package_esp8266com_index.json
+ * ------------------------------------------------------------------------*/
+
+
 #include <SPI.h>
 #include <MFRC522.h>
 //--------------------------------------------------
@@ -76,12 +90,46 @@ void loop()
   //------------------------------------------------------------------------------
   //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
   blockNum = 4;
-  toBlockDataArray("001");
+  toBlockDataArray("002"); //Student ID
   WriteDataToBlock(blockNum, block_data);
   ReadDataFromBlock(blockNum, readBlockData);
   dumpSerial(blockNum, readBlockData);
   //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-
+  //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+  blockNum = 5;
+  toBlockDataArray("David"); //First Name
+  WriteDataToBlock(blockNum, block_data);
+  ReadDataFromBlock(blockNum, readBlockData);
+  dumpSerial(blockNum, readBlockData);
+  //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+  //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+  blockNum = 6;
+  toBlockDataArray("Anthony"); //Last Name
+  WriteDataToBlock(blockNum, block_data);
+  ReadDataFromBlock(blockNum, readBlockData);
+  dumpSerial(blockNum, readBlockData);
+  //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+  //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+  blockNum = 8;
+  toBlockDataArray("Jhon Abrahum"); //Father's Name
+  WriteDataToBlock(blockNum, block_data);
+  ReadDataFromBlock(blockNum, readBlockData);
+  dumpSerial(blockNum, readBlockData);
+  //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+  //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+  blockNum = 9;
+  toBlockDataArray("28-09-1989"); //Date of Birth
+  WriteDataToBlock(blockNum, block_data);
+  ReadDataFromBlock(blockNum, readBlockData);
+  dumpSerial(blockNum, readBlockData);
+  //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+  //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+  blockNum = 10;
+  toBlockDataArray("+923004447777"); //Phone Number
+  WriteDataToBlock(blockNum, block_data);
+  ReadDataFromBlock(blockNum, readBlockData);
+  dumpSerial(blockNum, readBlockData);
+  //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 }
 
 
