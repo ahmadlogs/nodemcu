@@ -1,4 +1,18 @@
-//ESP8266 Board Version 3.0.2
+/* ------------------------------------------------------------------------
+ * Created by: Tauseef Ahmad
+ * Created on: 4 April, 2022
+ *  
+ * Tutorial: https://youtu.be/M9Sci4nsTEk
+ * ------------------------------------------------------------------------
+ * Download Resources
+ * ------------------------------------------------------------------------
+ * Preferences--> Aditional boards Manager URLs : 
+ * For ESP8266 and NodeMCU - Version 3.0.2
+ * http://arduino.esp8266.com/stable/package_esp8266com_index.json
+ * ------------------------------------------------------------------------*/
+
+
+
 #include <SPI.h>
 #include <MFRC522.h>
 #include <Arduino.h>
