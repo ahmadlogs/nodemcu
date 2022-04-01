@@ -7,10 +7,10 @@
 #include <WiFiClient.h>
 #include <WiFiClientSecureBearSSL.h>
 //-----------------------------------------------------------
-const String web_app_url = "https://script.google.com/macros/s/AKfycbyr9Id62s_UpR7a1Ptu-lznzq4Cd0_AbiJa2pZR2T526SRcrZ69NJqoD3vnkUaCHz_cdw/exec";
+const String web_app_url = "ENTER_GOOGLE_SHEET_WEB_APP_URL";
 //-----------------------------------------------------------
-#define ENTER_WIFI_SSID "OPPO A54"
-#define ENTER_WIFI_PASSWORD "cebfa248e1a0"
+#define WIFI_SSID "ENTER_WIFI_SSID"
+#define WIFI_PASSWORD "ENTER_WIFI_PASSWORD"
 //-----------------------------------------------------------
 int blocks[] = {4,5,6,8,9,10};
 #define blocks_len  (sizeof(blocks) / sizeof(blocks[0]))
