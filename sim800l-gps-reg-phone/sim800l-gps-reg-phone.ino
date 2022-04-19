@@ -9,7 +9,7 @@
  * Download Resources
  * ****************************************************************************
  * Install ESP8266 Board
- * http://arduino.esp826at+cmgr=76.com/stable/package_esp8266com_index.json
+ * http://arduino.esp8266.com/stable/package_esp8266com_index.json
  * 
  * Install TinyGPS++ library
  * https://github.com/mikalhart/TinyGPSPlus
