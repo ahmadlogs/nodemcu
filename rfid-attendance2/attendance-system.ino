@@ -32,9 +32,9 @@ int blocks[] = {4,5,6,8,9,10};
 //GPIO 0 --> D3
 //GPIO 2 --> D4
 //GPIO 4 --> D2
-#define RST_PIN  D3
-#define SS_PIN   D4
-#define BUZZER   D2
+#define RST_PIN  0
+#define SS_PIN   2
+#define BUZZER   4
 //-----------------------------------------
 MFRC522 mfrc522(SS_PIN, RST_PIN);
 MFRC522::MIFARE_Key key;  
