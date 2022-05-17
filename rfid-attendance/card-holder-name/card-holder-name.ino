@@ -1,3 +1,16 @@
+/* ------------------------------------------------------------------------
+ * Created by: Tauseef Ahmad
+ * Created on: 23 Feb, 2022
+ *  
+ * Tutorial: https://youtu.be/aNjkNmHRx4o
+ * ------------------------------------------------------------------------
+ * Download Resources
+ * ------------------------------------------------------------------------
+ * Preferences--> Aditional boards Manager URLs : 
+ * For ESP8266 and NodeMCU - Version 3.0.2
+ * http://arduino.esp8266.com/stable/package_esp8266com_index.json
+ * ------------------------------------------------------------------------*/
+
 #include <SPI.h>
 #include <MFRC522.h>
 //-----------------------------------------
