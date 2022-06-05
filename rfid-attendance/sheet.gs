@@ -13,7 +13,7 @@
 
 var ss = SpreadsheetApp.openById('ENTER_SHEET_ID');
 var sheet = ss.getSheetByName('Sheet1');
-var timezone = "asia/karachi"
+var timezone = "asia/karachi";
 
 
 //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
