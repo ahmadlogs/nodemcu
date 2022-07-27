@@ -71,7 +71,7 @@ void setup()
   //WiFi Connectivity
   Serial.println();
   Serial.print("Connecting to AP");
-  WiFi.begin(ENTER_WIFI_SSID, ENTER_WIFI_PASSWORD);
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
   while (WiFi.status() != WL_CONNECTED){
     Serial.print(".");
     delay(200);
