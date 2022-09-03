@@ -31,15 +31,15 @@ String tempPhone = "";
 //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 //GPS Module TX pin to NodeMCU D1
 //GPS Module RX pin to NodeMCU D2
-#define rxGPS D1
-#define txGPS D2
+#define rxGPS 5 //D1
+#define txGPS 4 //D2
 SoftwareSerial neogps(rxGPS,txGPS);
 TinyGPSPlus gps;
 //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 //GSM Module TX pin to NodeMCU D3
 //GSM Module RX pin to NodeMCU D4
-#define rxGSM D3
-#define txGSM D4
+#define rxGSM 0 //D3
+#define txGSM 2 //D4
 SoftwareSerial sim800(rxGSM,txGSM);
 //MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 String smsStatus;
