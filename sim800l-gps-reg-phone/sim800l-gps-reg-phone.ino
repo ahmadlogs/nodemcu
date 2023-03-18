@@ -203,7 +203,8 @@ void parseData(String buff){
     else if(cmd == "+CMGR"){
       extractSms(buff);
       //-------------------------------------------------------
-      if(msg.equals("r") && phoneNo[0].length() != 13) {
+      //if(msg.equals("r") && phoneNo[0].length() != 13) {
+      if(msg.equals("r") && phoneNo[0].length() == 13) {
         writeToEEPROM(offsetPhone[0],senderNumber);
         phoneNo[0] = senderNumber;
         String text = "Number is Registered: ";
